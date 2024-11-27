@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "Rotwailer",
+        "size": 2,
+        "location": "Germany",
+        "img": "./public/dogs/rotwailer.png"
+    },
+    {
+        "id": "2",
+        "name": "German Shepherd",
+        "size": 2,
+        "location": "Germany",
+        "img": "./public/dogs/germanshepherd.png"
+    },
+    {
+        "id": "3",
+        "name": "Labrodar",
+        "size": 2,
+        "location": "UK",
+        "img": "./public/dogs/labrodar.png"
+    },
+    {
+        "id": "4",
+        "name": "Alabai",
+        "size": 4,
+        "location": "Turkey",
+        "img": "./public/dogs/alabai.png"
+    }
+]

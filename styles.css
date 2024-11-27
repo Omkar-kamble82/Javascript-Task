@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=SUSE:wght@100..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-div {
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.bigcats-div, .dogs-div, .bigfishs-div {
+    margin: 20px 40px;
+}
+
+.bigcats, .dogs, .bigfishs {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.bigcat, .bigcatupdateform, .bigcatform, .dog, .dogupdateform, .dogform, .bigfish, .bigfishupdateform, .bigfishform {
+    border: 2px solid black;
+    padding: 10px;
+    min-width: 160px;
+}
+
+.bigcat p, .bigcatupdateform p, .bigcatform p, 
+.dog p, .dogupdateform p, .dogform p, 
+.bigfish p, .bigfishupdateform p, .bigfishform p {
+    font-size: 13px;
+}
+
+.bigcatimg, .dogimg, .bigfishimg {
+    margin-top: 20px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.bigcatimg:hover, .dogimg:hover, .bigfishimg:hover {
+    transform: scale(1.2);
+}
+
+.addbigcatmodal, .updatebigcatmodal, 
+.adddogmodal, .updatedogmodal,
+.addbigfishmodal, .updatebigfishmodal {
+    display: none;
+    backdrop-filter: blur(8px);
+    z-index: 50;
+    position: fixed;
+    inset: 0;
+}
+
+.bigcatform, .bigcatupdateform, 
+.dogform, .dogupdateform,
+.bigfishform, .bigfishupdateform {
+    background-color: white;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 10px; 
+}
+
+.bigcatform h4, .bigcatupdateform h4, 
+.dogform h4, .dogupdateform h4,
+.bigfishform h4, .bigfishupdateform h4 {
+    margin-bottom: 20px;
+}
+
+.bigcatform input, .bigcatupdateform input, 
+.dogform input, .dogupdateform input,
+.bigfishform input, .bigfishupdateform input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.bigcatform span, .bigcatupdateform span, 
+.dogform span, .dogupdateform span,
+.bigfishform span, .bigfishupdateform span {
+    color: red;
+}
+
+.bigcatform button, .bigcatupdateform button, 
+.dogform button, .dogupdateform button,
+.bigfishform button, .bigfishupdateform button {
+    width: 100%;
+    height: 40px;
+}
+
+.bigcatdelete, .dogdelete, .bigfishdelete{
+    margin-bottom: 5px;
+}
+
+@media (max-width: 500px) {
+    .bigcat, .dog, .bigfish {
+        min-width: 100px;
+    }
+
+    .bigcatform, .bigcatupdateform, 
+    .dogform, .dogupdateform,
+    .bigfishform, .bigfishupdateform {
+        width: 300px;
+    }
+}

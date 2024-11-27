@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Javascript Web Programmer Task</title>
+</head>
+<body>
+    
+    <header class="header-div">
+        <h1 class="heading">Javascript Web Programmer Task !</h1>
+    </header>
+
+    <!-- Big Cat HTML -->
+    <div class="bigcats-div">
+        <h2>Table 1: Big Cats</h2>
+        <div>
+            <button class="bigcatname">Sort by name</button>
+            <button class="bigcatlocation">Sort by location</button>
+            <button class="bigcatsize">Sort by size</button>
+            <button class="addbigcatbutton">Add Big Cat</button>
+        </div>
+        <div class="addbigcatmodal">
+            <div class="bigcatform">
+                <h4>Add Big Cat</h4>
+                <form class="addbigcatform">
+                    <label for="name"><span>* </span>Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="location"><span>* </span>Location:</label>
+                    <input type="text" id="location" name="location" required>
+                    <br>
+                    <label for="size"><span>* </span>Size: (in ft)</label>
+                    <input type="number" id="size" name="size" required>
+                    <br>
+                    <label for="url">Photo URL: (if not given default url will be added)</label>
+                    <input type="url" id="url" name="url">
+                    <br>
+                    <button type="submit">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="updatebigcatmodal">
+            <div class="bigcatupdateform">
+                <h4>Update Big Cat</h4>
+                <form class="updatebigcatform">
+                    <label for="name"><span>* </span>Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="location"><span>* </span>Location:</label>
+                    <input type="text" id="location" name="location" required>
+                    <br>
+                    <label for="size"><span>* </span>Size: (in ft)</label>
+                    <input type="number" id="size" name="size" required>
+                    <br>
+                    <label for="url">Photo URL: (original URL will be applied if not given new one)</label>
+                    <input type="url" id="url" name="url">
+                    <br>
+                    <button type="submit">Update</button>
+                </form>
+            </div>
+        </div>
+        <div class="bigcats"></div>
+    </div>
+
+
+    <!-- Dog div -->
+    <div class="dogs-div">
+        <h2>Table 2: Dogs</h2>
+        <div>
+            <button class="dogname">Sort by name</button>
+            <button class="doglocation">Sort by location</button>
+            <button class="adddogbutton">Add Dog</button>
+        </div>
+        <div class="adddogmodal">
+            <div class="dogform">
+                <h4>Add Dog</h4>
+                <form class="adddogform">
+                    <label for="name"><span>* </span>Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="location"><span>* </span>Location:</label>
+                    <input type="text" id="location" name="location" required>
+                    <br>
+                    <label for="size"><span>* </span>Size: (in ft)</label>
+                    <input type="number" id="size" name="size" required>
+                    <br>
+                    <label for="url">Photo URL: (if not given default url will be added)</label>
+                    <input type="url" id="url" name="url">
+                    <br>
+                    <button type="submit">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="updatedogmodal">
+            <div class="dogupdateform">
+                <h4>Update Dog</h4>
+                <form class="updatedogform">
+                    <label for="name"><span>* </span>Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="location"><span>* </span>Location:</label>
+                    <input type="text" id="location" name="location" required>
+                    <br>
+                    <label for="size"><span>* </span>Size: (in ft)</label>
+                    <input type="number" id="size" name="size" required>
+                    <br>
+                    <label for="url">Photo URL: (original URL will be applied if not given new one)</label>
+                    <input type="url" id="url" name="url">
+                    <br>
+                    <button type="submit">Update</button>
+                </form>
+            </div>
+        </div>
+        <div class="dogs"></div>
+    </div>
+
+    <!-- Big Fish div -->
+    <div class="bigfishs-div">
+        <h2>Table 3: Big Fish</h2>
+        <div>
+            <button class="bigfishsize">Sort by size</button>
+            <button class="addbigfishbutton">Add Big Fish</button>
+        </div>
+        <div class="addbigfishmodal">
+            <div class="bigfishform">
+                <h4>Add Big Fish</h4>
+                <form class="addbigfishform">
+                    <label for="name"><span>* </span>Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="location"><span>* </span>Location:</label>
+                    <input type="text" id="location" name="location" required>
+                    <br>
+                    <label for="size"><span>* </span>Size: (in ft)</label>
+                    <input type="number" id="size" name="size" required>
+                    <br>
+                    <label for="url">Photo URL: (if not given default url will be added)</label>
+                    <input type="url" id="url" name="url">
+                    <br>
+                    <button type="submit">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="updatebigfishmodal">
+            <div class="bigfishupdateform">
+                <h4>Update Big Fish</h4>
+                <form class="updatebigfishform">
+                    <label for="name"><span>* </span>Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="location"><span>* </span>Location:</label>
+                    <input type="text" id="location" name="location" required>
+                    <br>
+                    <label for="size"><span>* </span>Size: (in ft)</label>
+                    <input type="number" id="size" name="size" required>
+                    <br>
+                    <label for="url">Photo URL: (original URL will be applied if not given new one)</label>
+                    <input type="url" id="url" name="url">
+                    <br>
+                    <button type="submit">Update</button>
+                </form>
+            </div>
+        </div>
+        <div class="bigfishs"></div>
+    </div>
+    
+    <script type="module" src="Script/script.js"></script>
+</body>
+</html>

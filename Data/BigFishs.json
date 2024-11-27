@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "Humpback Whale",
+        "size": 15,
+        "location": " Atlantic Ocean",
+        "img": "./public/bigfishs/humpbackwhale.png"
+    },
+    {
+        "id": "2",
+        "name": "Killer Whale",
+        "size": 12,
+        "location": " Atlantic Ocean",
+        "img": "./public/bigfishs/killerwhale.png"
+    },
+    {
+        "id": "3",
+        "name": "Tiger Shark",
+        "size": 8,
+        "location": "Ocean",
+        "img": "./public/bigfishs/tigershark.png"
+    },
+    {
+        "id": "4",
+        "name": "Hammerhead Shark",
+        "size": 8,
+        "location": "Ocean",
+        "img": "./public/bigfishs/hammerheadshark.png"
+    }
+]
