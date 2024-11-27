@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Javascript Web Programmer Task</title>
+    <link rel="icon" href="/public/icon.png" />
+    <title>Animal List</title>
 </head>
 <body>
     
@@ -15,11 +16,11 @@
     <!-- Big Cat HTML -->
     <div class="bigcats-div">
         <h2>Table 1: Big Cats</h2>
-        <div>
-            <button class="bigcatname">Sort by name</button>
-            <button class="bigcatlocation">Sort by location</button>
-            <button class="bigcatsize">Sort by size</button>
-            <button class="addbigcatbutton">Add Big Cat</button>
+        <div class="buttondiv">
+            <button class="bigcatname button">Sort by name</button>
+            <button class="bigcatlocation button">Sort by location</button>
+            <button class="bigcatsize button">Sort by size</button>
+            <button class="addbigcatbutton button">Add Big Cat</button>
         </div>
         <div class="addbigcatmodal">
             <div class="bigcatform">
@@ -37,7 +38,7 @@
                     <label for="url">Photo URL: (if not given default url will be added)</label>
                     <input type="url" id="url" name="url">
                     <br>
-                    <button type="submit">Add</button>
+                    <button type="submit" class="addbutton">Add</button>
                 </form>
             </div>
         </div>
@@ -57,7 +58,7 @@
                     <label for="url">Photo URL: (original URL will be applied if not given new one)</label>
                     <input type="url" id="url" name="url">
                     <br>
-                    <button type="submit">Update</button>
+                    <button type="submit" class="updatebutton">Update</button>
                 </form>
             </div>
         </div>
@@ -69,9 +70,9 @@
     <div class="dogs-div">
         <h2>Table 2: Dogs</h2>
         <div>
-            <button class="dogname">Sort by name</button>
-            <button class="doglocation">Sort by location</button>
-            <button class="adddogbutton">Add Dog</button>
+            <button class="dogname button">Sort by name</button>
+            <button class="doglocation button">Sort by location</button>
+            <button class="adddogbutton button">Add Dog</button>
         </div>
         <div class="adddogmodal">
             <div class="dogform">
@@ -89,7 +90,7 @@
                     <label for="url">Photo URL: (if not given default url will be added)</label>
                     <input type="url" id="url" name="url">
                     <br>
-                    <button type="submit">Add</button>
+                    <button type="submit" class="addbutton">Add</button>
                 </form>
             </div>
         </div>
@@ -109,7 +110,7 @@
                     <label for="url">Photo URL: (original URL will be applied if not given new one)</label>
                     <input type="url" id="url" name="url">
                     <br>
-                    <button type="submit">Update</button>
+                    <button type="submit" class="updatebutton">Update</button>
                 </form>
             </div>
         </div>
@@ -120,8 +121,8 @@
     <div class="bigfishs-div">
         <h2>Table 3: Big Fish</h2>
         <div>
-            <button class="bigfishsize">Sort by size</button>
-            <button class="addbigfishbutton">Add Big Fish</button>
+            <button class="bigfishsize button">Sort by size</button>
+            <button class="addbigfishbutton button">Add Big Fish</button>
         </div>
         <div class="addbigfishmodal">
             <div class="bigfishform">
@@ -139,7 +140,7 @@
                     <label for="url">Photo URL: (if not given default url will be added)</label>
                     <input type="url" id="url" name="url">
                     <br>
-                    <button type="submit">Add</button>
+                    <button type="submit" class="addbutton">Add</button>
                 </form>
             </div>
         </div>
@@ -156,10 +157,10 @@
                     <label for="size"><span>* </span>Size: (in ft)</label>
                     <input type="number" id="size" name="size" required>
                     <br>
-                    <label for="url">Photo URL: (original URL will be applied if not given new one)</label>
+                    <label for="url">Photo URL: (If no new URL is provided, the original URL will be applied.)</label>
                     <input type="url" id="url" name="url">
                     <br>
-                    <button type="submit">Update</button>
+                    <button type="submit" class="updatebutton">Update</button>
                 </form>
             </div>
         </div>

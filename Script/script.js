@@ -6,7 +6,7 @@ import Dog from "./dog.class.js"
     // BigCats data fetching and functionality
     const Bigcatdata = await fetch("./Data/BigCats.json")
     const BigCatsData = await Bigcatdata.json()
-    const bigCat = new BigCats(BigCatsData, ".bigcats", "Big Cats", "bigcat", "font-weight: normal; color: black;")
+    const bigCat = new BigCats(BigCatsData, ".bigcats", "Big Cats", "bigcat", "font-weight: normal; color: white;")
     const sortBigCatbysize = document.querySelector('.bigcatsize')
     const sortBigCatbyname = document.querySelector('.bigcatname')
     const sortBigCatbylocation = document.querySelector('.bigcatlocation')
@@ -28,7 +28,7 @@ import Dog from "./dog.class.js"
     // Dogs data fetching and functionality
     const Dogdata = await fetch("./Data/Dogs.json")
     const DogsData = await Dogdata.json()
-    const dog = new Dog(DogsData, ".dogs", "Dogs", "dog", "font-weight: bold; color: black;")
+    const dog = new Dog(DogsData, ".dogs", "Dogs", "dog", "font-weight: bold; color: white;")
     const sortDogbyname = document.querySelector('.dogname')
     const sortDogbylocation = document.querySelector('.doglocation')
     sortDogbyname.addEventListener("click", () => {
@@ -45,7 +45,7 @@ import Dog from "./dog.class.js"
     // BigFishs data fetching and functionality
     const BigFishdata = await fetch("./Data/BigFishs.json")
     const BigFishsData = await BigFishdata.json()
-    const bigfish = new BigFishs(BigFishsData, ".bigfishs", "Big fishs", "bigfish", "font-weight: bold; color: blue; font-style: italic;")
+    const bigfish = new BigFishs(BigFishsData, ".bigfishs", "Big fishs", "bigfish", "font-weight: bold; color: #00ADB5; font-style: italic;")
     const sortBigFishbysize = document.querySelector('.bigfishsize')
     sortBigFishbysize.addEventListener("click", () => {
         bigfish.sortBigFishsBySize()

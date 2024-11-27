@@ -25,8 +25,8 @@ export class Animals {
                 <p>Location: ${animaldata.location}</p>
                 <img src=${animaldata.img} alt="${animaldata.name}" class="${this.animalClass}img">
                 <div>
-                    <button class="${this.animalClass}delete">Delete</button>
-                    <button class="${this.animalClass}update">Update</button>
+                    <button class="${this.animalClass}delete deletebutton">Delete</button>
+                    <button class="${this.animalClass}update updatebutton">Update</button>
                 </div>
             `
             
